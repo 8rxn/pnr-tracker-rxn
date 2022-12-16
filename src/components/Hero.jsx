@@ -34,7 +34,7 @@ const Hero = ({setDisplay,display,text,setText,setData}) => {
                 {text}
             </Typography>
             <Stack direction={'column'} gap={10}>
-            <TextField id='pnr-field' className='text-field' type='search' variant='outlined' label='PNR' color={'warning'} helperText='Enter Your PNR Details' onClick={()=>setText('Type in Your PNR')} onChange={(e)=>{setPnr(e.target.value)}} >
+            <TextField id='pnr-field' autoComplete='off' className='text-field' type='search' variant='outlined' label='PNR' color={'warning'} helperText='Enter Your PNR Details' onClick={()=>setText('Type in Your PNR')} onChange={(e)=>{setPnr(e.target.value)}} >
 
             </TextField>
             <Link to={pnr.length===10?`/pnr/${pnr}`:'/'} >

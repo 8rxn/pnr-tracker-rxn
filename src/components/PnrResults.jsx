@@ -55,6 +55,9 @@ const PnrResults = ({data,setData}) => {
             <Typography fontSize={{sm:'1.25rem',lg:'1.75rem',md:'1.5 rem',xs:'1rem',xl:'2rem'}} mt={4} fontFamily={'monospace'}  fontWeight={600} color="#f28553">
         {data?.data?.trainInfo.trainNo} :   {data?.data?.trainInfo.name}
         </Typography>
+            <Typography fontSize={{sm:'1.25rem',lg:'1.75rem',md:'1.5 rem',xs:'1rem',xl:'2rem'}} mt={4} fontFamily={'monospace'}  fontWeight={600} color="#f28553">
+                Date : {data?.data?.trainInfo.dt}
+        </Typography>
                 <Stack mt={'40px'}    spacing={{ xs: 12, sm: 12, md: 4 }} alignItems='center' justifyContent={'space-evenly'} direction={{ xs: 'column', md: 'row' }} >
                    <Info info={data?.data?.boardingInfo} station={Station1} header={'Boarding' }/>
                    <Info info={data?.data?.destinationInfo} station={Station2} header={'Destination' }/>

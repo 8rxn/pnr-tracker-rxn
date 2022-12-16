@@ -18,7 +18,7 @@ const PnrRoute = ({data}) => {
 
         <img src={logo} alt='' className='logo-img'/>
         <Typography fontSize={{sm:'2rem',lg:'3rem',md:'3 rem',xs:'1.5rem',xl:'4rem'}} fontWeight={700} fontFamily='monospace' color="black" mt={'20px'}>
-            Train Route
+            Train <br/> Route
         </Typography>
         <Typography  fontSize={{lg:'25px',sm:'15px'}} fontWeight={800} fontFamily='monospace' color="white">
             {pnr}
