@@ -1,0 +1,31 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo-img{
+  max-width: 70px;
+}
+
+
+
+.route-item-chip{
+  color:grey;
+ margin:0 30px;
+}
+.text-field{
+  color:white !important;
+}
+
+.MuiFormLabel-root{
+  color:rgba(255, 255, 255, 0.776) !important;
+}
+
+.MuiFormHelperText-root{
+  color:rgba(164, 164, 164, 0.776) !important;
+}
+
+
+
+
